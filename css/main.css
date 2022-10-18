@@ -567,6 +567,12 @@ video {
   }
 }
 
+@media (min-width: 976px) {
+  .container {
+    max-width: 976px;
+  }
+}
+
 @media (min-width: 1440px) {
   .container {
     max-width: 1440px;
@@ -1069,6 +1075,11 @@ body {
   .md\:py-1 {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .md\:text-left {
