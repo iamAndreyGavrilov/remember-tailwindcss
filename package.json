@@ -7,7 +7,8 @@
     "build": "tailwindcss -i ./input.css -o ./css/main.css",
     "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch",
     "start": "parcel index.html --open",
-    "build-parcel": "parcel build index.html --out-dir=build"
+    "build-parcel": "parcel build index.html --out-dir=build",
+    "deploy": "vercel --prod"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/iamAndreyGavrilov/remember-tailwindcss#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.1.8",
+    "vercel": "^28.4.11"
   }
 }
