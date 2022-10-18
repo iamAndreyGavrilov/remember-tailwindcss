@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./input.css -o ./css/main.css",
-    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch",
+    "start": "parcel index.html --open",
+    "build-parcel": "parcel build index.html --out-dir=build"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/iamAndreyGavrilov/remember-tailwindcss#readme",
   "devDependencies": {
+    "parcel-bundler": "^1.12.5",
     "tailwindcss": "^3.1.8"
   }
 }
